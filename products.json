@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Organic Old Fashioned Rolled Oats",
+    "category": "Grains",
+    "price": 4.99,
+    "description": "Heart-healthy whole grain oats, perfect for a warm breakfast or baking oatmeal cookies.",
+    "tags": ["breakfast", "healthy", "fiber", "porridge"],
+    "image": "https://images.unsplash.com/photo-1517646331032-9e8563c523a1?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 2,
+    "name": "Whole Milk (1 Gallon)",
+    "category": "Dairy",
+    "price": 3.49,
+    "description": "Fresh, creamy whole milk rich in calcium and vitamin D. Great for cereals and coffee.",
+    "tags": ["dairy", "drink", "calcium", "bones"],
+    "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 3,
+    "name": "Fresh Bananas (Bunch)",
+    "category": "Produce",
+    "price": 1.29,
+    "description": "Sweet and creamy tropical fruit. High in potassium and great for smoothies or on-the-go snacks.",
+    "tags": ["fruit", "snack", "potassium", "energy"],
+    "image": "https://images.unsplash.com/photo-1571771896612-6101361f62e3?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 4,
+    "name": "Boneless Skinless Chicken Breast",
+    "category": "Meat",
+    "price": 8.99,
+    "description": "Lean source of protein. Versatile for grilling, baking, or adding to salads and stir-frys.",
+    "tags": ["meat", "poultry", "protein", "dinner", "lean"],
+    "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 5,
+    "name": "Classic Marinara Sauce",
+    "category": "Pantry",
+    "price": 3.99,
+    "description": "Rich tomato sauce seasoned with garlic, basil, and oregano. Essential for pasta dishes.",
+    "tags": ["pasta", "italian", "dinner", "sauce", "tomato"],
+    "image": "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 6,
+    "name": "Italian Spaghetti Pasta",
+    "category": "Pantry",
+    "price": 1.99,
+    "description": "Durum wheat semolina pasta. Pairs perfectly with marinara or meatballs for a classic meal.",
+    "tags": ["pasta", "italian", "wheat", "carbs", "dinner"],
+    "image": "https://images.unsplash.com/photo-1551462147-37885acc36f1?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 7,
+    "name": "Honeycrisp Apples",
+    "category": "Produce",
+    "price": 2.99,
+    "description": "Crisp, juicy, and sweet red apples. A refreshing healthy snack.",
+    "tags": ["fruit", "snack", "healthy", "sweet"],
+    "image": "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 8,
+    "name": "Dark Chocolate Bar (70%)",
+    "category": "Snacks",
+    "price": 2.49,
+    "description": "Premium dark chocolate with rich cocoa flavor. A delicious treat with antioxidants.",
+    "tags": ["snack", "sweet", "dessert", "candy"],
+    "image": "https://images.unsplash.com/photo-1548907040-4baa42d10919?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 9,
+    "name": "Premium Roasted Coffee Beans",
+    "category": "Beverages",
+    "price": 12.99,
+    "description": "Aromatic roasted coffee beans. Grind fresh for the perfect morning brew.",
+    "tags": ["drink", "caffeine", "breakfast", "morning", "energy"],
+    "image": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 10,
+    "name": "Greek Yogurt (Plain)",
+    "category": "Dairy",
+    "price": 4.49,
+    "description": "Thick and creamy yogurt high in protein and probiotics. Great with granola or fruit.",
+    "tags": ["dairy", "breakfast", "probiotic", "protein"],
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 11,
+    "name": "Avocados (Bag of 4)",
+    "category": "Produce",
+    "price": 5.99,
+    "description": "Ripe and creamy avocados. Perfect for guacamole or spreading on toast.",
+    "tags": ["produce", "healthy fats", "mexican", "dip"],
+    "image": "https://images.unsplash.com/photo-1519162808019-7de1623bb133?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 12,
+    "name": "Almond Butter",
+    "category": "Pantry",
+    "price": 7.99,
+    "description": "Smooth and nutty spread made from roasted almonds. A great alternative to peanut butter.",
+    "tags": ["breakfast", "spread", "protein", "nut"],
+    "image": "https://images.unsplash.com/photo-1615485499973-1002dc04a11f?w=500&auto=format&fit=crop&q=60"
+  }
+]

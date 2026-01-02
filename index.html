@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshBasket - Smart Grocery Shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <i class="fas fa-leaf"></i>
+                Fresh<span>Basket</span>
+            </a>
+            <button class="cart-btn" id="cartBtn">
+                <i class="fas fa-shopping-basket fa-lg" style="color: var(--secondary);"></i>
+                <span class="cart-count" id="cartCount">0</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Describe what you need.</h1>
+                <p>Use natural language to find exactly what you're looking for.</p>
+
+                <div class="search-container">
+                    <input type="text" class="search-input" id="searchInput"
+                        placeholder="e.g., 'Ingredients for a healthy breakfast'">
+                    <div class="ai-status" id="aiStatus">
+                        <div class="spinner" id="spinner"></div>
+                        <span id="statusText">Initializing AI...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container products-wrapper">
+            <div class="grid" id="productGrid">
+                <!-- Products will be injected here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Cart Drawer -->
+    <div class="cart-overlay" id="cartOverlay">
+        <div class="cart-drawer">
+            <div class="cart-header">
+                <h2>Your Basket</h2>
+                <button class="close-cart" id="closeCart"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <!-- Cart items here -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total</span>
+                    <span id="cartTotal">$0.00</span>
+                </div>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
